@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+__pycache__/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/

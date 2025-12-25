@@ -1,0 +1,18 @@
+{
+  "Coffee": { "price": 5.50, "alias": "Jar of Coffee" },
+  "Drinks": { "price": 1.50, "alias": "Beverage" },
+  "Egg": { "price": 3.00, "alias": "Carton of Eggs" },
+  "Detergent": { "price": 9.50, "alias": "Laundry Detergent" },
+  "Box": { "price": 0.00, "alias": "Package Box" },
+  "Beans": { "price": 1.20, "alias": "Canned Beans" },
+  "Meat": { "price": 7.50, "alias": "Fresh Meat" },
+  "Yogurt": { "price": 1.00, "alias": "Yogurt Cup" },
+  "Apple": { "price": 1.20, "alias": "Red Apple" },
+  "Watermelon": { "price": 5.00, "alias": "Watermelon" },
+  "Butter": { "price": 2.50, "alias": "Butter Block" },
+  "Cheese": { "price": 4.00, "alias": "Cheese" },
+  "Banana": { "price": 0.80, "alias": "Banana" },
+  "Cereal": { "price": 4.50, "alias": "Cereal Box" },
+  "Orange": { "price": 0.90, "alias": "Orange" },
+  "Milk": { "price": 2.50, "alias": "Milk Carton" }
+}

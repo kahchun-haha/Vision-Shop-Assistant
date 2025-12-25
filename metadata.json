@@ -1,0 +1,8 @@
+{
+  "name": "VisionShop Assistant",
+  "description": "An accessible shopping assistant for the visually impaired using AI for object detection and audio guidance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
