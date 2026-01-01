@@ -19,7 +19,7 @@ export const speak = (text: string, priority: 'high' | 'normal' = 'normal') => {
   utterance.volume = 1.0;
 
   const voices = window.speechSynthesis.getVoices();
-  const preferredVoice = voices.find(v => v.lang.includes('en-US') && (v.name.includes('Google') || v.name.includes('Natural'))) || voices[0];
+  const preferredVoice = voices.find(v => v.lang.includes('en-GB') || v.lang.includes('en-US') && (v.name.includes('Google') || v.name.includes('Natural'))) || voices[0];
   if (preferredVoice) {
     utterance.voice = preferredVoice;
   }

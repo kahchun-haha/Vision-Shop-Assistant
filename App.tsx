@@ -150,7 +150,7 @@ const App: React.FC = () => {
     if (cart.length === 0) {
       speak("Cart empty.", 'high');
     } else {
-      speak(`Total ${total.toFixed(2)} dollars.`, 'high');
+      speak(`Total RM ${total.toFixed(2)} Ringgit.`, 'high');
     }
   };
 
@@ -269,7 +269,7 @@ const App: React.FC = () => {
           >
             <span className="text-lg font-bold opacity-80 uppercase">Total Estimate</span>
             <span className="text-3xl font-mono font-black">
-              ${cart.reduce((sum, item) => sum + (item.price * item.quantity), 0).toFixed(2)}
+              RM {cart.reduce((sum, item) => sum + (item.price * item.quantity), 0).toFixed(2)}
             </span>
           </button>
         </div>

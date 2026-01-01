@@ -74,10 +74,10 @@ export const CartSummary: React.FC<CartSummaryProps> = ({
                 </div>
                 <div className="text-right">
                   <p className="text-xl font-mono font-bold text-white">
-                    ${(item.price * item.quantity).toFixed(2)}
+                    RM {(item.price * item.quantity).toFixed(2)}
                   </p>
                   <p className="text-xs text-zinc-500">
-                    ${item.price.toFixed(2)} each
+                    RM {item.price.toFixed(2)} each
                   </p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export const CartSummary: React.FC<CartSummaryProps> = ({
       <div className="mt-6 pt-4 border-t-2 border-zinc-700 flex justify-between items-center">
         <span className="text-2xl font-bold text-white">Total:</span>
         <span className="text-4xl font-mono font-bold text-yellow-400" aria-live="polite">
-            ${total.toFixed(2)}
+            RM {total.toFixed(2)}
         </span>
       </div>
     </div>
