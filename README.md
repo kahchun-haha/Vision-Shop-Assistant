@@ -90,7 +90,7 @@ npm run dev
 2.  Open `src/services/yoloService.ts`.
 3.  Update the API URL:
 ```bash
-    // const response = await fetch('https://YOUR_LAPTOP_IP:5000/detect', { ... });
+    const response = await fetch('https://YOUR_LAPTOP_IP:5000/detect', { ... });
 ```
 
 5.  Open the local URL (e.g., `https://192.168.1.X:3000`) on your mobile phone.
